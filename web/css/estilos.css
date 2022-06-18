@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*-------enunciados-------*/
+h1,
+h2,
+h3,
+h4, .item {
+    color: black;
+ }
+
+
+h2,
+h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+    display: inline;
+}
+
+h2 {
+    font-weight: none;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+}
+/*--------------------  listas---------------------------*/
+
+ul{
+    list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ol li{
+    margin-bottom: 6%;
+}
+/*-------------------Body-----------------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    margin: 0 auto;
+    width: 45%;
+}
+
+/*-------------------------Header-------------------*/
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+header,
+footer,
+main,
+aside {
+    width: 100%;
+}
+
+header img{
+    width: 70%;
+    margin-left: 30%;
+}
+
+/*--------------------------Main--------------------*/
+main {
+    font-size: 21px;
+}
+/*-----------------nav_bar--------------------*/
+nav {
+    padding: 20px;
+}
+
+nav h2,
+footer h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 33px;
+}
+
+nav h2 {
+    background-color: white;
+    margin-right: auto;
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+nav a {
+    text-transform: capitalize;
+}
+
+nav a :hover {
+    text-decoration: underline;
+}
+/* -------------------------servicios-------------------*/
+
+/*section {
+    width: 45%;
+}*/
+
+.servicios img{
+    width: 100%;
+}
+/*--------------------aside--------------------------*/
+aside {
+    text-align: center;
+}
+
+aside a img{
+    height: auto;
+    width: 5%;
+}
+
+/*------------------footer-----------------------*/
+footer {
+    background-color: #FCEE21;
+    height: 100px;
+    padding: 10px;
+   /* width: 45%;*/
+}
+
+/*-------------------Formulario-------------------------*/
+
+span{
+    color: red;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+input, textarea {width: 100%;}
+form{
+    margin: auto;
+}
+
+
+/*--------------------------clases-----------------------*/
+.grande{
+    font-size: 100px;
+    font-family: 'Coiny', cursive;
+}
+
+.item{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCEE21;
+}
+.encolumnar{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+header.encolumnar, aside.encolumnar{
+    border-bottom: none;
+}
+/*---------------------- Id's-----------------------------------*/
+#imagen{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#titulo{
+    font-size: 40px;
+}
+.boton{
+    background-color: black;
+    color: white;
+
+}
+
+
