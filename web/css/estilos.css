@@ -9,9 +9,10 @@
 h1,
 h2,
 h3,
-h4, .item {
+h4,
+.item {
     color: black;
- }
+}
 
 
 h2,
@@ -38,17 +39,19 @@ h4 {
     margin: 0;
     display: inline;
 }
+
 /*--------------------  listas---------------------------*/
 
-ul{
+ul {
     list-style: none;
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-ol li{
+ol li {
     margin-bottom: 6%;
 }
+
 /*-------------------Body-----------------------------*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -56,7 +59,7 @@ body {
     font-weight: 400;
     color: #333;
     margin: 0 auto;
-    width: 45%;
+    width: 75%;
 }
 
 /*-------------------------Header-------------------*/
@@ -72,7 +75,7 @@ aside {
     width: 100%;
 }
 
-header img{
+header img {
     width: 70%;
     margin-left: 30%;
 }
@@ -81,8 +84,12 @@ header img{
 main {
     font-size: 21px;
 }
+
 /*-----------------nav_bar--------------------*/
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     padding: 20px;
 }
 
@@ -103,6 +110,7 @@ footer a {
     color: #7a7a7a;
     text-decoration: none;
 }
+
 nav a {
     text-transform: capitalize;
 }
@@ -110,23 +118,29 @@ nav a {
 nav a :hover {
     text-decoration: underline;
 }
+
 /* -------------------------servicios-------------------*/
 
 /*section {
     width: 45%;
 }*/
 
-.servicios img{
+.servicios img {
     width: 100%;
 }
+
 /*--------------------aside--------------------------*/
 aside {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
-aside a img{
+aside a img {
+    text-align: center;
     height: auto;
-    width: 5%;
+    width: 50%;
+
 }
 
 /*------------------footer-----------------------*/
@@ -134,64 +148,85 @@ footer {
     background-color: #FCEE21;
     height: 100px;
     padding: 10px;
-   /* width: 45%;*/
+    /* width: 45%;*/
+    display: flex;
+    align-items: center;
 }
 
 /*-------------------Formulario-------------------------*/
 
-span{
+span {
     color: red;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 5px;
 }
 
-input{
+input {
     height: 40px;
     margin-bottom: 8px;
 }
 
-input, textarea {width: 100%;}
-form{
-    margin: auto;
+input,
+textarea {
+    width: 145%;
 }
+
+form {
+    margin-left: 300px;
+    width: 100%;}
 
 
 /*--------------------------clases-----------------------*/
-.grande{
-    font-size: 100px;
+.grande {
+    font-size: 80px;
     font-family: 'Coiny', cursive;
 }
 
-.item{
+.item {
     font-size: 24px;
     font-weight: bold;
     background-color: #FCEE21;
+    /*width: 100%;*/
 }
-.encolumnar{
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     margin-bottom: 30px;
     border-bottom: 0.5px solid gray;
 }
 
-header.encolumnar, aside.encolumnar{
+.encolumnar section {
+    width: 47%;
+}
+
+header.encolumnar,
+aside.encolumnar {
     border-bottom: none;
 }
+
+.boton {
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+
 /*---------------------- Id's-----------------------------------*/
-#imagen{
+#imagen {
     width: 80%;
     display: block;
     margin: auto;
 }
-#titulo{
+
+#titulo {
     font-size: 40px;
 }
-.boton{
-    background-color: black;
-    color: white;
 
+#contacto {
+    width: 70%;
 }
-
-
